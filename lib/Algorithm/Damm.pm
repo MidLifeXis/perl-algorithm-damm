@@ -74,6 +74,12 @@ return undef if it is not able to calculate the checksum.
 
 sub check_digit {
     my $N = shift;
+
+    return undef unless defined( $N );
+    return undef unless length( $N );
+    return undef unless $N =~ /^d+$/;
+
+    return $N;
 }
 
 =back
