@@ -32,7 +32,7 @@ digit.
 You can find information about the algorithm by searching the web for
 "Damm ECC".
 
-=head1 FUNCTION
+=head1 FUNCTIONS
 
 =over 4
 
