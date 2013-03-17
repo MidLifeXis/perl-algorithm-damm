@@ -125,16 +125,16 @@ __END__
 
 =over 4
 
-=item Algorithm::LUHN
-
-Original code based on L<Algorithm::LUHN> by Tim Ayers.
-
 =item Algorithm::CheckDigits
 
 L<Algorithm::CheckDigits> is a module that this probably should have
 been written as a part of.  There is an open issue
 (L<https://github.com/MidLifeXis/perl-algorithm-damm/issues/1>) to add
 an integration layer for this module to L<Algorithm::CheckDigits>.
+
+=item Algorithm::LUHN
+
+Original code based on L<Algorithm::LUHN> by Tim Ayers.
 
 =item Wikipedia
 
