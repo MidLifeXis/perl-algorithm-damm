@@ -30,14 +30,14 @@ This module implements the Damm algorithm for calculating a check
 digit.
 
 You can find information about the algorithm by searching the web for
-"Damm ECC".
+"Damm ECC".  In particular, see the L<SEE ALSO> section (below).
 
 =head1 HISTORY
 
 This module came about as I was reverse engineering a checksum method
-being used on another project of mine.  History of the method was lost
-to the sands of time, and I needed something to run some quick tests
-on various checksum algorithms.
+being used on another project of mine.  History of the method used was
+lost to the sands of time, and I needed something to run some quick
+tests on various checksum algorithms.
 
 This module is a reimplementation of one of the algorithms I had
 tested.
@@ -127,7 +127,7 @@ __END__
 
 =item Algorithm::LUHN
 
-Based on L<Algorithm::LUHN> by Tim Ayers.
+Original code based on L<Algorithm::LUHN> by Tim Ayers.
 
 =item Wikipedia
 
