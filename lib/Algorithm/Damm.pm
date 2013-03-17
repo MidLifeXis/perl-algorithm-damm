@@ -66,7 +66,7 @@ sub is_valid {
 
     return undef unless defined( $N );
     return undef unless length( $N ) > 2;
-    return undef unless $N =~ /^d+$/;
+    return undef unless $N =~ /^\d+$/;
 
     return $N;
 }
@@ -83,7 +83,7 @@ sub check_digit {
 
     return undef unless defined( $N );
     return undef unless length( $N );
-    return undef unless $N =~ /^d+$/;
+    return undef unless $N =~ /^\d+$/;
 
     return $N;
 }
