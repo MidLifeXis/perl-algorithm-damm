@@ -136,6 +136,10 @@ an integration layer for this module to L<Algorithm::CheckDigits>.
 
 Original code based on L<Algorithm::LUHN> by Tim Ayers.
 
+=item Math::CheckDigits
+
+Slightly different approach to generating check digits.
+
 =item Wikipedia
 
 L<http://en.wikipedia.org/wiki/Damm_algorithm> - Article explaining
