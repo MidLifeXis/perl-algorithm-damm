@@ -5,7 +5,7 @@ use Module::Build;
 
 my $build = Module::Build->new(
     module_name         => 'Algorithm::Damm',
-    license             => 'Artistic_2_0',
+    license             => 'perl',
     dist_author         => q(Brian T. Wightman <MidLifeXis@wightmanfam.org>),
     dist_version_from   => 'lib/Algorithm/Damm.pm',
     configure_requires  => {
