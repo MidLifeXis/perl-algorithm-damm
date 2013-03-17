@@ -65,7 +65,7 @@ sub is_valid {
     my $N = shift;
 
     return undef unless defined( $N );
-    return undef unless length( $N ) > 2;
+    return undef unless length( $N ) >= 2;
     return undef unless $N =~ /^\d+$/;
 
     return $N;
