@@ -7,7 +7,7 @@ use Algorithm::Damm qw/is_valid check_digit/;
 
 my $tests;
 
-plan tests => $tests * 1;
+plan tests => $tests * 11;
 
 my %good;
 BEGIN {
