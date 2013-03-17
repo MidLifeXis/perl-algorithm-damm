@@ -17,7 +17,7 @@ BEGIN {
         576  => 2,
         5762 => 0,
         );
-    $tests += %good;
+    $tests += scalar( keys %good );
 }
 is( check_digit( $_ ), $good{$_}, "check_digit( $_ ) => $good{$_}" )
     for keys %good;
