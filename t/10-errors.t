@@ -17,7 +17,6 @@ BEGIN {
         'a',
         '123a',
         );
-
     $tests += @check_digit_errors;
 }
 is( check_digit( $_ ), undef, "check_digit( $_ ) => undef" )
@@ -33,7 +32,6 @@ BEGIN {
         '1',
         '123a',
         );
-
     $tests += @is_valid_errors;
 }
 is( is_valid( $_ ), undef, "is_valid( $_ ) => undef" )
