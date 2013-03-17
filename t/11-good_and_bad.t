@@ -21,3 +21,10 @@ BEGIN {
 }
 is( check_digit( $_ ), $good{$_}, "check_digit( $_ ) => $good{$_}" )
     for keys %good;
+
+for my $key ( keys %good ) {
+    ok( is_valid( $key . $good{$key} ), "is_valid( $key$good{$key} )" );
+    for my $bad ( grep { $_ != $good{$key} } 0 .. 9 ) {
+        ok( ! is_valid( $key . $bad ), "! is_valid( $key$bad )" );
+    }
+}

@@ -72,7 +72,7 @@ sub is_valid {
     return undef unless length( $N ) >= 2;
     return undef unless $N =~ /^\d+$/;
 
-    return $N;
+    return check_digit( $N ) == 0;
 }
 
 =item check_digit NUM
