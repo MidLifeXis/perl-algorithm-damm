@@ -15,6 +15,7 @@ my $build = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
+        'perl' => '5.6.0',
     },
     add_to_cleanup      => [ 'Algorithm-Damm-*' ],
     create_makefile_pl  => 'traditional',
