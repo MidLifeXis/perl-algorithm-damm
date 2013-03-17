@@ -59,6 +59,10 @@ This function is equivalent to
 
   substr $N,length($N)-1 eq check_digit(substr $N,0,length($N)-1)
 
+Additionally, due to the way this algorithm works, if you crank the
+checksum calculation through the last digit (checkdigit included), you
+will end up with a value of 0.
+
 =cut
 
 sub is_valid {
