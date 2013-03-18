@@ -41,8 +41,17 @@ FUNCTIONS
         return undef if it is not able to calculate the checksum.
 
 SEE ALSO
+    Algorithm::CheckDigits
+        Algorithm::CheckDigits is a module that this probably should have
+        been written as a part of. There is an open issue
+        (<https://github.com/MidLifeXis/perl-algorithm-damm/issues/1>) to
+        add an integration layer for this module to Algorithm::CheckDigits.
+
     Algorithm::LUHN
         Original code based on Algorithm::LUHN by Tim Ayers.
+
+    Math::CheckDigits
+        Slightly different approach to generating check digits.
 
     Wikipedia
         <http://en.wikipedia.org/wiki/Damm_algorithm> - Article explaining

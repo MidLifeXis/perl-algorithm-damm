@@ -9,7 +9,7 @@ use vars qw/$VERSION @ISA @EXPORT @EXPORT_OK $ERROR/;
 @EXPORT    = qw//;
 @EXPORT_OK = qw/check_digit is_valid/;
 
-$VERSION = '1.000';
+$VERSION = '1.001';
 
 =pod
 
@@ -125,9 +125,20 @@ __END__
 
 =over 4
 
+=item Algorithm::CheckDigits
+
+L<Algorithm::CheckDigits> is a module that this probably should have
+been written as a part of.  There is an open issue
+(L<https://github.com/MidLifeXis/perl-algorithm-damm/issues/1>) to add
+an integration layer for this module to L<Algorithm::CheckDigits>.
+
 =item Algorithm::LUHN
 
 Original code based on L<Algorithm::LUHN> by Tim Ayers.
+
+=item Math::CheckDigits
+
+Slightly different approach to generating check digits.
 
 =item Wikipedia
 
