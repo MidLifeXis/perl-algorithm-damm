@@ -9,7 +9,7 @@ use vars qw/$VERSION @ISA @EXPORT @EXPORT_OK $ERROR/;
 @EXPORT    = qw//;
 @EXPORT_OK = qw/check_digit is_valid/;
 
-$VERSION = '1.001';
+$VERSION = '1.001.001';
 
 =pod
 
@@ -31,16 +31,6 @@ digit.
 
 You can find information about the algorithm by searching the web for
 "Damm ECC".  In particular, see the L<SEE ALSO> section (below).
-
-=head1 HISTORY
-
-This module came about as I was reverse engineering a checksum method
-being used on another project of mine.  History of the method used was
-lost to the sands of time, and I needed something to run some quick
-tests on various checksum algorithms.
-
-This module is a reimplementation of one of the algorithms I had
-tested.
 
 =head1 FUNCTIONS
 
@@ -120,6 +110,16 @@ return undef if it is not able to calculate the checksum.
 1;
 
 __END__
+
+=head1 HISTORY
+
+This module came about as I was reverse engineering a checksum method
+being used on another project of mine.  History of the method used was
+lost to the sands of time, and I needed something to run some quick
+tests on various checksum algorithms.
+
+This module is a reimplementation of one of the algorithms I had
+tested.
 
 =head1 SEE ALSO
 

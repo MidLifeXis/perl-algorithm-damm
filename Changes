@@ -1,5 +1,8 @@
 Revision history for Algorithm-Damm
 
+1.001.001   2013/03/17
+        Reorder POD sections (fixes #4)
+
 1.001   2013/03/17
         Add more related modules to documentation (Issue #2).
 
