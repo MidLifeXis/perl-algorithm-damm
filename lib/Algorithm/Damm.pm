@@ -32,16 +32,6 @@ digit.
 You can find information about the algorithm by searching the web for
 "Damm ECC".  In particular, see the L<SEE ALSO> section (below).
 
-=head1 HISTORY
-
-This module came about as I was reverse engineering a checksum method
-being used on another project of mine.  History of the method used was
-lost to the sands of time, and I needed something to run some quick
-tests on various checksum algorithms.
-
-This module is a reimplementation of one of the algorithms I had
-tested.
-
 =head1 FUNCTIONS
 
 =over 4
@@ -120,6 +110,16 @@ return undef if it is not able to calculate the checksum.
 1;
 
 __END__
+
+=head1 HISTORY
+
+This module came about as I was reverse engineering a checksum method
+being used on another project of mine.  History of the method used was
+lost to the sands of time, and I needed something to run some quick
+tests on various checksum algorithms.
+
+This module is a reimplementation of one of the algorithms I had
+tested.
 
 =head1 SEE ALSO
 
