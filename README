@@ -13,14 +13,6 @@ DESCRIPTION
     You can find information about the algorithm by searching the web for
     "Damm ECC". In particular, see the "SEE ALSO" section (below).
 
-HISTORY
-    This module came about as I was reverse engineering a checksum method
-    being used on another project of mine. History of the method used was
-    lost to the sands of time, and I needed something to run some quick
-    tests on various checksum algorithms.
-
-    This module is a reimplementation of one of the algorithms I had tested.
-
 FUNCTIONS
     is_valid CHECKSUMMED_NUM
         This function returns 1 if the final character of CHECKSUMMED_NUM is
@@ -39,6 +31,14 @@ FUNCTIONS
     check_digit NUM
         This function returns the checksum of the given number. It will
         return undef if it is not able to calculate the checksum.
+
+HISTORY
+    This module came about as I was reverse engineering a checksum method
+    being used on another project of mine. History of the method used was
+    lost to the sands of time, and I needed something to run some quick
+    tests on various checksum algorithms.
+
+    This module is a reimplementation of one of the algorithms I had tested.
 
 SEE ALSO
     Algorithm::CheckDigits
