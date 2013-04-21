@@ -1,6 +1,6 @@
 ---
 name: Algorithm-Damm
-version: 1.001.001
+version: 1.001.002
 author:
   - 'Brian T. Wightman <MidLifeXis@wightmanfam.org>'
 abstract: Calculate the Damm error correction check digit.
@@ -16,7 +16,7 @@ build_requires:
 provides:
   Algorithm::Damm:
     file: lib/Algorithm/Damm.pm
-    version: 1.001.001
+    version: 1.001.002
 generated_by: Module::Build version 0.32
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

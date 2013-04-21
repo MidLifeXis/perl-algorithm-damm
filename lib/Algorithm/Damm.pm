@@ -9,7 +9,7 @@ use vars qw/$VERSION @ISA @EXPORT @EXPORT_OK $ERROR/;
 @EXPORT    = qw//;
 @EXPORT_OK = qw/check_digit is_valid/;
 
-$VERSION = '1.001.001';
+$VERSION = '1.001.002';
 
 =pod
 
