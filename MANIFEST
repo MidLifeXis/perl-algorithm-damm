@@ -2,6 +2,8 @@ Build.PL
 Changes
 ignore.txt
 lib/Algorithm/Damm.pm
+lib/Algorithm/CheckDigits/Plugin/Damm.pm
+lib/Algorithm/CheckDigits/Plugin/Damm/Interface.pm
 Makefile.PL
 MANIFEST			This list of files
 README

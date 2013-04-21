@@ -17,6 +17,9 @@ my $build = Module::Build->new(
     requires => {
         'perl' => '5.6.0',
     },
+    recommends => {
+        'Algorithm::CheckDigits' => '> 1.2.1',
+    },
     add_to_cleanup      => [ 'Algorithm-Damm-*' ],
     create_makefile_pl  => 'traditional',
     create_readme       => 1,
