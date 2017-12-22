@@ -20,12 +20,10 @@ my $build = Module::Build->new(
     add_to_cleanup      => [ 'Algorithm-Damm-*' ],
     create_makefile_pl  => 'traditional',
     create_readme       => 1,
-    resources           => {
-        repository => {
-            url  => 'git://github.com/MidLifeXis/perl-algorithm-damm',
-            web  => 'https://github.com/MidLifeXis/perl-algorithm-damm',
-            type => 'git',
-        },
+    meta_merge => {
+        resources           => {
+            repository => 'https://github.com/MidLifeXis/perl-algorithm-damm',
+	},
     },
     );
 
